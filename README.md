@@ -1,7 +1,7 @@
 SystemJS 0.20 with Angular 4, Typescript 2, Bootstrap 4 and Font-Awesome
 =====
 
-A template for quickly building a demo to gather help, to show a potential bug report or to set up a POC. 
+A template for quickly building a demo to gather help, to show a potential bug report or to set up a [POC](https://en.wikipedia.org/wiki/Proof_of_concept). 
 
 Some modules (routing, animations) are already set up.
 
@@ -13,7 +13,7 @@ No [sass](http://sass-lang.com/), [less](http://lesscss.org/), ... only [css](ht
 
 The package `lite-server`, with the help of `Browsersync`, serves the static content, detects changes, refreshes the browser, ... 
 
-When the demo is launched as a page from the local FS, then a manual refresh from the root file (src/index.html) is requiered to take in account any change.
+When the demo is launched as a page from a file (src/index.html) on the local FS, then a manual refresh from this same file is requiered to take in account any change.
 
 How to start
 -----

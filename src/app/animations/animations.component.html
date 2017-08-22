@@ -1,0 +1,19 @@
+<div id="app-anim">
+    <h4>Utilisation de l'implémentation Angular de l'API Web Animation</h4>
+    <div>
+        <div class="items-container">
+            <input type="text" 
+                   [(ngModel)]="inputItem" 
+                   (keyup.enter)="addItem()">
+
+            <button (click)="addItem()">Add</button>
+
+            <ul *ngIf="items">
+                <li *ngFor="let item of items" 
+                    (click)="removeItem(item)" 
+                    title="Cliquer pour supprimer"
+                    [@itemAnim]>{{ item }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

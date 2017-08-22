@@ -1,0 +1,47 @@
+{
+  "name": "sjs0_20-ng4-ts2-bs4",
+  "version": "0.0.1",
+  "description": "Angular 4 demo transpiling Typescript 2 on browser with SystemJS 0.20",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "lite-server -c=bs-config.js"
+  },
+  "keywords": [
+    "transpile",
+    "browser",
+    "systemjs",
+    "angular",
+    "typescript",
+    "bootstrap",
+    "font-awesome"
+  ],
+  "author": "atao60",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^4.3.5",
+    "@angular/common": "^4.3.5",
+    "@angular/compiler": "^4.3.5",
+    "@angular/core": "^4.3.5",
+    "@angular/forms": "^4.3.5",
+    "@angular/http": "^4.3.5",
+    "@angular/platform-browser": "^4.3.5",
+    "@angular/platform-browser-dynamic": "^4.3.5",
+    "@angular/router": "^4.3.5",
+    "@angular/upgrade": "^4.3.5",
+    "angular-in-memory-web-api": "^0.3.2",
+    "bootstrap": "^4.0.0-beta",
+    "core-js": "^2.5.0",
+    "font-awesome": "^4.7.0",
+    "ngx-webstorage": "^1.8.0",
+    "plugin-typescript": "^7.1.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "systemjs": "0.20.17",
+    "typescript": "2.4.2",
+    "web-animations-js": "^2.3.1",
+    "zone.js": "^0.8.16"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

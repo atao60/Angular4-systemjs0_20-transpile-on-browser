@@ -1,0 +1,40 @@
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+nav a:visited, a:link {
+    color: #607D8B;
+}
+
+nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+}
+
+nav a.active {
+    color: #039be5;
+}
+  
+#app-root #siteHeader {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    padding-left: 4em;
+    border-right: solid gray thin;
+}
+
+#app-root #siteView {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    padding-top: 1em;
+    margin-left: 1em;
+}
